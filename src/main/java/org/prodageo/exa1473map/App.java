@@ -17,13 +17,6 @@ public class App
             collect(Collectors.toConcurrentMap(
                 w -> w, w -> 1, Integer::sum));
 
-				
-/*				
-            Map<String, Integer> counts =
-                list.stream().collect(
-                    Collectors.toMap(
-                        w -> w, w -> 1, Integer::sum));				
-*/					
-        System.out.println(counts);
+	System.out.println(counts);
     }
 }
